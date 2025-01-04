@@ -1,0 +1,7 @@
+{
+  "python.analysis.extraPaths": [
+    "./Lab_3_netmiko/Lab3_",
+    "./Lab_3_netmiko/Lab3_",
+    "./Lab_3_netmiko/Lab3_"
+  ]
+}

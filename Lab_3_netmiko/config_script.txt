@@ -1,0 +1,5 @@
+hostname CSR1000v
+interface GigabitEthernet1
+ description Configured by Netmiko
+ ip address dhcp
+ no shutdown
