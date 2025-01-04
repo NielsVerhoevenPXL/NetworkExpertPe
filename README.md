@@ -36,3 +36,5 @@
 2. I pinged it from my host with success
 3. I pinged the router from the VM i have created in lab 1
 4. I used to ssh command to connect to router from my VM.
+5. I logged in to webui for the router
+![alt text](images/image.png)
