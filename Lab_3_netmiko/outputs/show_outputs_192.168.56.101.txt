@@ -1,11 +1,12 @@
 Command: show run int GigabitEthernet1.10
 Building configuration...
 
-Current configuration : 100 bytes
+Current configuration : 110 bytes
 !
 interface GigabitEthernet1.10
  encapsulation dot1Q 10
  ip address 192.168.10.1 255.255.255.0
+ shutdown
 end
 
 ==================================================
@@ -33,9 +34,6 @@ Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
 
 Gateway of last resort is not set
 
-      192.168.10.0/24 is variably subnetted, 2 subnets, 2 masks
-C        192.168.10.0/24 is directly connected, GigabitEthernet1.10
-L        192.168.10.1/32 is directly connected, GigabitEthernet1.10
       192.168.20.0/24 is variably subnetted, 2 subnets, 2 masks
 C        192.168.20.0/24 is directly connected, GigabitEthernet1.20
 L        192.168.20.1/32 is directly connected, GigabitEthernet1.20
@@ -64,8 +62,8 @@ software.
 
 ROM: IOS-XE ROMMON
 
-CSR1000v uptime is 5 hours, 10 minutes
-Uptime for this control processor is 5 hours, 11 minutes
+CSR1000v uptime is 6 hours, 7 minutes
+Uptime for this control processor is 6 hours, 8 minutes
 System returned to ROM by reload
 System image file is "bootflash:packages.conf"
 Last reload reason: reload

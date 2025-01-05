@@ -23,3 +23,21 @@ GigabitEthernet1.20    192.168.20.1    YES manual up                    up
 ALERT: GigabitEthernet1.10 is down (Status: administratively, Protocol: down)
 
 ==================================================
+Timestamp: 2025-01-05 00:33:25
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       192.168.56.101  YES DHCP   up                    up      
+GigabitEthernet1.10    192.168.10.1    YES manual administratively down down    
+GigabitEthernet1.20    192.168.20.1    YES manual up                    up      
+==================================================
+ALERT: GigabitEthernet1.10 is down (Status: administratively, Protocol: down)
+
+==================================================
+Timestamp: 2025-01-05 00:38:26
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       192.168.56.101  YES DHCP   up                    up      
+GigabitEthernet1.10    192.168.10.1    YES manual administratively down down    
+GigabitEthernet1.20    192.168.20.1    YES manual up                    up      
+==================================================
+ALERT: GigabitEthernet1.10 is down (Status: administratively, Protocol: down)
+
+==================================================
